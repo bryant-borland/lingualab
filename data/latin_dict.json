@@ -20,5 +20,17 @@
         "tense": "present",
         "meaning": "loves",
         "base": "am"
-    }
+    },
+    "servus": {
+        "type": "noun",
+        "declension": 2,
+        "gender": "m",
+        "base": "serv"
+      },
+      "bellum": {
+        "type": "noun",
+        "declension": 2,
+        "gender": "n",
+        "base": "bell"
+      }
 }

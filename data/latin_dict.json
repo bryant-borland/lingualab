@@ -1,0 +1,24 @@
+{
+    "puella": {
+        "type": "noun",
+        "gender": "f",
+        "declension": 1,
+        "meaning": "girl",
+        "base": "puell"
+    },
+    "rosa": {
+        "type": "noun",
+        "gender": "f",
+        "declension": 1,
+        "meaning": "rose",
+        "base": "ros"
+    },
+    "amat": {
+        "type": "verb",
+        "conjugation": 1,
+        "person": "3s",
+        "tense": "present",
+        "meaning": "loves",
+        "base": "am"
+    }
+}

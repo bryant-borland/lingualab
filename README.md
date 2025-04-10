@@ -1,6 +1,6 @@
-# Latin Translator 📜
+# LinguaLab 📜
 
-A solo project to build a Latin-to-English translator — part programming, part language learning.
+Welcome to LinguaLab: a solo project to build a Latin-to-English translator — part programming, part language learning.
 
 ## Features
 - Dictionary-based translation
@@ -8,10 +8,7 @@ A solo project to build a Latin-to-English translator — part programming, part
 - Modular Python code structure
 
 ## Project Structure
-lingualab/ 
-    ├── data/ # Latin dictionary JSON |
-    ├── grammar/ # Grammar logic (declension, etc.) 
-    ├── translator/ # Main runner
+LinguaLab/ ├── data/ # Latin dictionary (JSON format) │ └── latin_dict.json ├── grammar/ # Grammar rules (declension, etc.) │ ├── init.py │ └── declension.py ├── translator/ # Main runner script │ ├── init.py │ └── main.py ├── .gitignore ├── README.md └── venv/ # Virtual environment (excluded from Git) ```
 
 
 ## How to Use

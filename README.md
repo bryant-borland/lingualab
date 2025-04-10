@@ -8,7 +8,7 @@ Welcome to LinguaLab: a solo project to build a Latin-to-English translator — 
 - Modular Python code structure
 
 ## Project Structure
-LinguaLab/ ├── data/ # Latin dictionary (JSON format) │ └── latin_dict.json ├── grammar/ # Grammar rules (declension, etc.) │ ├── init.py │ └── declension.py ├── translator/ # Main runner script │ ├── init.py │ └── main.py ├── .gitignore ├── README.md └── venv/ # Virtual environment (excluded from Git) ```
+LinguaLab ├── data # Latin dictionary (JSON format) │ └── latin_dict.json ├── grammar # Grammar rules (declension, etc.) │ ├── init.py │ └── declension.py ├── translator # Main runner script │ ├── init.py │ └── main.py ├── .gitignore ├── README.md └── venv # Virtual environment (excluded from Git) ```
 
 
 ## How to Use

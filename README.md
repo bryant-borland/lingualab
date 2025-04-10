@@ -7,10 +7,6 @@ Welcome to LinguaLab: a solo project to build a Latin-to-English translator — 
 - Latin noun declension (1st declension so far)
 - Modular Python code structure
 
-## Project Structure
-<pre><code> ## Project Structure translator-project/ ├── data/ # Latin dictionary (JSON format) │ └── latin_dict.json ├── grammar/ # Grammar rules (declension, etc.) │ ├── __init__.py │ └── declension.py ├── translator/ # Main runner script │ ├── __init__.py │ └── main.py ├── .gitignore ├── README.md └── venv/ # Virtual environment (excluded from Git) </code></pre>
-
-
 ## How to Use
 
 1. **Clone the repo**

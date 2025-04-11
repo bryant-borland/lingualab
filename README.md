@@ -2,6 +2,9 @@
 
 Welcome to LinguaLab: a solo project to build a Latin-to-English translator — part programming, part language learning.
 
+This project is inspired by the vocabulary and structure introduced in *Familia Romana* by Hans Ørberg. 
+This tool is not affiliated with or a reproduction of the book, but uses its content as a learning reference.
+
 ## Features
 - Dictionary-based translation
 - Latin noun declension (1st declension so far)
@@ -21,7 +24,8 @@ Welcome to LinguaLab: a solo project to build a Latin-to-English translator — 
     ```
 
 ## Goals
-- [x] Build a declension engine for 1st declension nouns
+- [x] Basic Quiz
+- [ ] Build a declension 
 - [ ] Add verb conjugation
 - [ ] Handle more Latin cases (genitive, dative, etc.)
 - [ ] Translate full sentences using grammatical structure

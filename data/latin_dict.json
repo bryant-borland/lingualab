@@ -1,4 +1,39 @@
 {
+    "ancilla": {
+        "type":"noun",
+        "gender":"f",
+        "declension":1,
+        "meaning": "female slave, servant",
+        "base": "ancill"
+    },
+    "domina" : {
+        "type":"noun",
+        "gender":"f",
+        "declension":1,
+        "meaning": "mistress",
+        "base": "domin"
+    },
+    "familia" : {
+        "type":"noun",
+        "gender":"f",
+        "declension":1,
+        "meaning": "family, household",
+        "base": "famili"
+    },
+    "fēmina" : {
+        "type":"noun",
+        "gender":"f",
+        "declension":1,
+        "meaning": "Woman",
+        "base": "fēmin"
+    },
+    "fīlia" : {
+        "type": "noun",
+        "gender": "f",
+        "declension": 1,
+        "meaning": "daughter",
+        "base": "fīli"
+    },
     "puella": {
         "type": "noun",
         "gender": "f",

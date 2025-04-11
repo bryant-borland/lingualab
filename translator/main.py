@@ -1,18 +1,20 @@
-import json
-from grammar.declension import decline_noun
+from utils.word_loader import load_words
+from translator.quiz import start_declension_quiz # adjust path if needed
 
-# Load dictionary
-with open("data/latin_dict.json") as f:
-    latin_dict = json.load(f)
+def main():
+    words = load_words("data/chapter_01_words.csv")
+    nouns = words["noun"]
 
-# Choose a word to test
-noun_entry = latin_dict["puella"] 
+    print("Welcome to LinguaLab!")
+    print("1. Start declension quiz")
+    print("2. Exit")
 
-# Choose the case and number
-case = "accusative"
-number = "plural"
+    choice = input("Choose an option: ")
 
-# Decline it using the dispatcher
-form = decline_noun(noun_entry, case, number)
+    if choice == "1":
+        start_declension_quiz(nouns)
+    else:
+        print("Goodbye!")
 
-print(f"The {case} {number} form of '{noun_entry['base']}' is: {form}")
+if __name__ == "__main__":
+    main()
